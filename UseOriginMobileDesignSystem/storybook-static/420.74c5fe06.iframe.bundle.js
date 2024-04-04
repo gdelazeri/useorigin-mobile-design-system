@@ -1,0 +1,1 @@
+(self.webpackChunkuseoriginmobiledesignsystem=self.webpackChunkuseoriginmobiledesignsystem||[]).push([[420],{"./components/Tooltip/types.ts":(__unused_webpack_module,exports)=>{Object.defineProperty(exports,"__esModule",{value:!0})}}]);

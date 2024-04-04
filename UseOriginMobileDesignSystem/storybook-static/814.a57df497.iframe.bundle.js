@@ -1,0 +1,1 @@
+(self.webpackChunkuseoriginmobiledesignsystem=self.webpackChunkuseoriginmobiledesignsystem||[]).push([[814],{"./components/Button/types.ts":()=>{}}]);

@@ -1,0 +1,1 @@
+(self.webpackChunkuseoriginmobiledesignsystem=self.webpackChunkuseoriginmobiledesignsystem||[]).push([[19],{"./components/Typography/types.ts":()=>{}}]);
