@@ -17,7 +17,10 @@ export const TextInput = ({
   margin = 'none',
   maxRows,
   size = 'normal',
-  keyboardType = 'default'
+  keyboardType = 'default',
+  secureTextEntry = false,
+  leftElement,
+  rightElement,
 }: TextInputProps) => {
   const theme = useTheme();
   const [text, setText] = React.useState('')  // uncontrolled component - to be tested on storybook
@@ -61,6 +64,9 @@ export const TextInput = ({
         style={{ ...textInputStyle }}
         dense={size === 'small'}
         keyboardType={keyboardType}
+        secureTextEntry={secureTextEntry}
+        left={leftElement}
+        right={rightElement}
       />
       {hasHelperText && <Text style={{ ...helperTextStyle }}>{helperText}</Text>}
     </>

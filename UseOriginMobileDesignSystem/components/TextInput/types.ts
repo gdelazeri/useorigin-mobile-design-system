@@ -1,3 +1,4 @@
+import React from "react";
 import { KeyboardType } from "react-native";
 
 export type TextInputVariant = 'outlined' | 'filled' | 'standard';
@@ -18,4 +19,7 @@ export interface TextInputProps {
   maxRows?: number;
   size?: 'normal' | 'small';
   keyboardType?: KeyboardType;
+  secureTextEntry?: boolean;
+  leftElement?: React.ReactElement;
+  rightElement?: React.ReactElement;
 }

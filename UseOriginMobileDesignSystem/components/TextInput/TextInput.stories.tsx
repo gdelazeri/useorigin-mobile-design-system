@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { TextInput } from "./TextInput";
 import { View } from "react-native";
-import { PaperProvider } from "react-native-paper";
+import { PaperProvider, TextInput as RNPTextInput } from "react-native-paper";
 
 const meta = {
   title: "TextInput",
@@ -218,4 +218,28 @@ export const TextInputWithTooltip: Story = {
       </PaperProvider>
     )
   ],
+};
+
+export const TextInputWithLeftIcon: Story = {
+  args: {
+    label: 'Left icon',
+    placeholder: 'Placeholder',
+    leftElement: <RNPTextInput.Icon icon={'account-circle'} />,
+  },
+};
+
+export const TextInputWithRightIcon: Story = {
+  args: {
+    label: 'Right icon',
+    placeholder: 'Placeholder',
+    rightElement: <RNPTextInput.Icon icon={'eye-outline'} />,
+  },
+};
+
+export const TextInputWithSecureText: Story = {
+  args: {
+    label: 'Secure text',
+    placeholder: 'Placeholder',
+    secureTextEntry: true,
+  },
 };
