@@ -7,7 +7,7 @@ export const Tooltip = ({
   title,
 }: TooltipProps) => {
   return (
-    <RNPTooltip title={title}>
+    <RNPTooltip title={title} enterTouchDelay={100}>
       {children}
     </RNPTooltip>
   );
