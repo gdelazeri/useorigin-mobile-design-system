@@ -7,9 +7,18 @@ export const Typography = ({
   children,
   variant = 'h1',
   color = '#333333',
+  gutterBottom = false,
+  align = 'auto'
 }: TypographyProps) => {
+  const style = {
+    ...styles[variant],
+    marginBottom: gutterBottom ? 8 : 0,
+    color,
+    textAlign: align
+  }
+
   return (
-    <Text style={{ ...styles[variant], color }}>
+    <Text style={style}>
       {children}
     </Text>
   );
