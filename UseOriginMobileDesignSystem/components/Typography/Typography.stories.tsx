@@ -3,11 +3,7 @@ import { Typography } from "./Typography";
 
 const meta = {
   title: "Typography",
-  component: Typography,
-  args: {
-    children: "Typography",
-    variant: 'h1'
-  },
+  component: Typography
 } satisfies Meta<typeof Typography>;
 
 export default meta;
