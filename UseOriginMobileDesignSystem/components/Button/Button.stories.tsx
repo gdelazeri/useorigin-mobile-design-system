@@ -24,7 +24,7 @@ export const TextLoading: Story = {
 export const TextWithIcon: Story = {
   args: {
     ...Text.args,
-    icon: 'arrow-right',
+    icon: 'arrow-left',
   },
 };
 
@@ -39,7 +39,7 @@ export const TextDisabledWithIcon: Story = {
   args: {
     ...Text.args,
     disabled: true,
-    icon: 'arrow-right',
+    icon: 'arrow-left',
   },
 };
 
@@ -58,11 +58,12 @@ export const OutlinedLoading: Story = {
   },
 };
 
-export const OutlinedWithIcon: Story = {
+export const OutlinedWithRightIcon: Story = {
   args: {
     ...Text.args,
     variant: 'outlined',
     icon: 'arrow-right',
+    iconPosition: 'right',
   },
 };
 
@@ -79,7 +80,7 @@ export const OutlinedDisabledWithIcon: Story = {
     ...Text.args,
     variant: 'outlined',
     disabled: true,
-    icon: 'arrow-right',
+    icon: 'arrow-left',
   },
 };
 
@@ -103,6 +104,7 @@ export const ContainedWithIcon: Story = {
     ...Text.args,
     variant: 'contained',
     icon: 'arrow-right',
+    iconPosition: 'right',
   },
 };
 
@@ -118,7 +120,7 @@ export const ContainedDisabledWithIcon: Story = {
   args: {
     ...Text.args,
     variant: 'contained',
-    icon: 'arrow-right',
+    icon: 'trash-can-outline',
     disabled: true
   },
 };

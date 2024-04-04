@@ -9,6 +9,7 @@ export const Button = ({
   disabled = false,
   loading = false,
   icon,
+  iconPosition = 'left'
 }: ButtonProps) => {
   return (
     <RNPButton
@@ -17,7 +18,7 @@ export const Button = ({
       testID='button'
       disabled={disabled || loading}
       icon={icon}
-      contentStyle={{ flexDirection: 'row-reverse' }}
+      contentStyle={{ flexDirection: iconPosition === 'left' ? 'row' : 'row-reverse' }}
       loading={loading}
     >
       {text}
