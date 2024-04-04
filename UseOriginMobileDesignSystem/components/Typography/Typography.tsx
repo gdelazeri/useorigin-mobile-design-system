@@ -6,7 +6,7 @@ import { StyleSheet } from "react-native";
 export const Typography = ({
   children,
   variant = 'h1',
-  color = '#333333',
+  color,
   gutterBottom = false,
   align = 'auto'
 }: TypographyProps) => {
