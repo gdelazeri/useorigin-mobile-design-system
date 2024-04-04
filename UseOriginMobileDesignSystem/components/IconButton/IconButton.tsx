@@ -12,6 +12,7 @@ export const IconButton = ({
       icon={icon}
       iconColor={color}
       onPress={onPress}
+      testID="icon-button"
    />
   );
 };

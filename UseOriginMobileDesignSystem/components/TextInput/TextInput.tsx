@@ -67,6 +67,7 @@ export const TextInput = ({
         secureTextEntry={secureTextEntry}
         left={leftElement}
         right={rightElement}
+        testID="text-input"
       />
       {hasHelperText && <Text style={{ ...helperTextStyle }}>{helperText}</Text>}
     </>
