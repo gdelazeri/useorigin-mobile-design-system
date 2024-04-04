@@ -80,7 +80,7 @@ export const h5: Story = {
 
 export const h5Justified: Story = {
   args: {
-    children: "Headline 5 Headline 5 Headline 5 Headline 5 Headline 5 Headline 5 Headline 5",
+    children: "Lorem ipsum dolor sit amet. Qui Quis dolores in distinctio pariatur sit saepe iure. Ea perferendis alias eos odio atque rem dolor tempore qui ratione repellat et recusandae eius. Qui suscipit nulla eum debitis fugiat ad officia sequi et dolores magnam. Ab unde dolores ex maxime dignissimos sed doloremque enim eos dicta numquam quo atque adipisci et odio natus.",
     variant: 'h5',
     align: 'justify'
   }
